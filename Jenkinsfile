@@ -9,7 +9,7 @@ pipeline {
 
     stage('npm shelscript') {
       steps {
-        sh 'cd src && npm i  '
+        sh 'cd src && touch package.json && npm i'
       }
     }
 
