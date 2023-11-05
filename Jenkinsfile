@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('changelog ') {
+    stage('npm shelscript') {
       steps {
-        sh 'echo \'change log created successfully\' > CHANGELOG.md'
+        sh 'cd /src && npm i  '
       }
     }
 
