@@ -9,7 +9,7 @@ pipeline {
 
     stage('changelog ') {
       steps {
-        sh 'cat ls -l > CHANGELOG.md'
+        sh 'echo \'change log created successfully\' > CHANGELOG.md'
       }
     }
 
