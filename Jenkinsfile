@@ -9,7 +9,7 @@ pipeline {
 
     stage('changelog ') {
       steps {
-        sh 'ls -l > CHANGELOG.md'
+        sh 'cat ls -l > CHANGELOG.md'
       }
     }
 
